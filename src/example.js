@@ -1,9 +1,7 @@
-// Intentional linting errors for testing
-const unusedVar = "test" // Unused variable (error), double quotes (error)
-let anotherVar = "hello" // Double quotes (error)
-console.log(anotherVar) // Console log (warn)
+// Fixed linting errors
+let anotherVar = 'hello'
 function badFunc() {
-  return "oops" // Double quotes (error)
+  return 'oops'
 }
 badFunc()
-let x = 1 // Missing semicolon (error)
+let x = 1;
